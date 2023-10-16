@@ -18,9 +18,11 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     //flex: 1,
+    //columnGap: 10,
+    //rowGap: 20,
+    gap: 20,
     height: 300,
     flexWrap: "wrap",
-    alignContent: "space-around",
     marginTop: 64,
     borderWidth: 6,
     borderColor: "red",
